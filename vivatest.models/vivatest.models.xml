@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>vivatest.models</name>
+    </assembly>
+    <members>
+        <member name="M:vivatest.models.CreatedRecord.#ctor(vivatest.models.Record)">
+            <summary>
+            The created record
+            </summary>
+        </member>
+        <member name="P:vivatest.models.CreatedRecord.Id">
+            <summary>
+            The id of the record
+            </summary>
+        </member>
+        <member name="P:vivatest.models.CreatedRecord.SalesInEuro">
+            <summary>
+            The sales in euro at the time of creation
+            </summary>
+        </member>
+        <member name="P:vivatest.models.CreateRequest.Records">
+            <summary>
+            The request for the record creation
+            </summary>
+        </member>
+    </members>
+</doc>

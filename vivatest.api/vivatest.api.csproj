@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <!--<PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(MSBuildThisFileName).xml</DocumentationFile>
+    <PackageId>API.Versioning.Swagger</PackageId>
+    <Product>API service</Product>
+    <Description>API project</Description>
+  </PropertyGroup>-->
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <!--<PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />-->
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+    <PackageReference Include="SimpleInjector" Version="4.9.0" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc.Core" Version="4.9.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\vivatest.controllers\vivatest.controllers.csproj" />
+    <ProjectReference Include="..\vivatest.DAL\vivatest.DAL.csproj" />
+    <ProjectReference Include="..\vivatest.services\vivatest.services.csproj" />
+  </ItemGroup>
+
+</Project>
