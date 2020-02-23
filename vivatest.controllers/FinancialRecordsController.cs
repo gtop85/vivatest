@@ -154,7 +154,8 @@ namespace vivatest.controllers
         /// Get reports for a requested time period
         /// </summary>
         /// <remarks>
-        /// Get reports for the records found in the asked time frame
+        /// Get reports for the records found in the asked time frame.
+        /// Each record contains additional information about the Sale Price Average, the Sum of Gross Sales and the Max Profit grouped by Segment and Country.
         /// </remarks>
         /// <param name="dateFrom"></param>
         /// <param name="dateTo"></param>
